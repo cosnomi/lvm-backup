@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  unit_test:
+    docker:
+      - image: circleci/python
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Run all unit test recursively
+          command: |
+            python -m unittest discover .
+workflows:
+  version: 2
+  test:
+    jobs:
+    - unit_test
