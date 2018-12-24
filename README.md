@@ -17,4 +17,4 @@ but it is largely fixed for readability and flexibility.
 In other words, this project is not tested on the production environment.
 
 # Note
-Any pull requests are appreciated, but note that I'm relatively new to GitHub and unfailiar with OSS manner.
+Any pull requests are appreciated, but note that I'm relatively new to GitHub and unfailiar with OSS manners.
